@@ -2,12 +2,13 @@
 USD files converted and edited from isaac_lab_gundam_robot_urdf, to be used by IsaacLabGundam
 
 How to try your own Isaac Lab Gundam RX-78 (Ubuntu):
-1. Create a folder "gundam" under home
-2. Clone [isaac_lab_gundam_usd repo](https://github.com/KKSTB/isaac_lab_gundam_usd.git)
-3. Clone [IsaacLabGundam](https://github.com/KKSTB/IsaacLabGundam.git)
-4. Follow isaac lab normal installation (i.e. https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#creating-the-isaac-sim-symbolic-link and https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#installation)
-5. To train: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/train.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --headless`
-6. To play the trained model: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/play.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --num_envs 256`
+1. Install Isaac Sim that matches with the Isaac Lab version (https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html) (currently 4.2.0)
+2. Create a folder "gundam" under home
+3. Clone [isaac_lab_gundam_usd repo](https://github.com/KKSTB/isaac_lab_gundam_usd.git)
+4. Clone [IsaacLabGundam](https://github.com/KKSTB/IsaacLabGundam.git)
+5. Follow isaac lab normal installation (i.e. https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#creating-the-isaac-sim-symbolic-link and https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#installation)
+6. To train: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/train.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --headless`
+7. To play the trained model: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/play.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --num_envs 256`
 
 So far the Gundam can only stand but not walk...
 
