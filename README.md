@@ -1,5 +1,5 @@
 # isaac_lab_gundam_usd
-USD files converted and edited from isaac_lab_gundam_robot_urdf, to be used by IsaacLabGundam
+USD files converted and edited from isaac_lab_gundam_robot_urdf, used by IsaacLabGundam
 
 How to try your own Isaac Lab Gundam RX-78 (Ubuntu):
 1. Install Isaac Sim that matches with the Isaac Lab version (https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_workstation.html) (currently 4.2.0)
