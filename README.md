@@ -8,7 +8,8 @@ How to try your own Isaac Lab Gundam RX-78 (Ubuntu):
 4. Clone [IsaacLabGundam](https://github.com/KKSTB/IsaacLabGundam.git)
 5. Follow isaac lab normal installation (i.e. https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#creating-the-isaac-sim-symbolic-link and https://isaac-sim.github.io/IsaacLab/source/setup/installation/binaries_installation.html#installation)
 6. To train: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/train.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --headless`
-7. To play the trained model: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/play.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --num_envs 256`
+7. To view training progress: `./isaaclab.sh -p -m tensorboard.main --logdir=logs`
+8. To play the trained model: `./isaaclab.sh -p source/standalone/workflows/rsl_rl/play.py --task Isaac-Velocity-Rough-Gundam-RX78-v0 --num_envs 256`
 
 So far the Gundam can only stand but not walk...
 
