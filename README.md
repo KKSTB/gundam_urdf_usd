@@ -1,4 +1,4 @@
-# gundam_urdf_usd
+# isaac_lab_gundam_usd
 USD files cnverted and edited from isaac_lab_gundam_robot_urdf, to be used by IsaacLabGundam
 
 Files:
